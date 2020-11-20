@@ -1200,6 +1200,7 @@ class libpthread(AsanInstrumentedLibrary, MuslInternalLibrary, MTLibrary):
           'library_pthread.c',
           'emscripten_atomic.c',
           'emscripten_tls_init.c',
+          'pthread_self.s',
         ])
       return files
     else:
